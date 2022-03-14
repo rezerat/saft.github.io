@@ -1,0 +1,101 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .text {
+    max-width: 100%;
+    margin-right: 0%;
+    margin-top: -220%;
+  }
+  .position {
+    max-width: 100%;
+    margin-left: 2px;
+  }
+  .image {
+    max-width: 80%;
+    margin-left: -90%;
+  }
+  .container {
+    font-size: 10px;
+    max-width: 40%;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 60%;
+    padding: 0 00px;
+    font-size: 14px;
+    margin-left: 190px;
+  }
+  .text {
+    font-size: 12px;
+    margin-top: -200%;
+  }
+  .image {
+    max-width: 60%;
+    margin-left: -190px;
+  }
+  .position {
+    margin-left: -0.5px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 8px;
+    margin-left: -px;
+    padding: 2px 2px;
+    margin-top: px;
+    margin-bottom: 50%;
+  }
+  .container {
+    max-width: 70%;
+    font-size: 8px;
+    margin-left: 90px;
+    max-height: 25%;
+
+  }
+  .image {
+    max-width: 40%;
+    margin-left: -85px;
+    margin-bottom: px;
+  }
+  .logo2 {
+    margin-left: 45%;
+  }
+  .data {
+    margin-left: 85px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 400px) {
+  .text {
+    font-size: 10px;
+    margin-top: -250%;
+  }
+}
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
